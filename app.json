@@ -1,0 +1,41 @@
+{
+
+    "name": "Save restricted content bot",
+    "description": "Telegram bot to save restricted content.",
+    "logo": "https://iili.io/JdnWahQ.md.jpg",
+    "keywords": [
+        "telegram",
+        "Save restricted content",
+        "bot"
+    ],
+    "repository": "https://github.com/187dasharath/savebotworking",
+    "website": "",
+    "success_url": "https://t.me/mrrajput_King",
+    "env": {
+            "API_HASH": {
+            "description": "Your API HASH from my.telegram.org",
+            "value": "7e9e5a575b0ccee7627499bf0182e857"
+        },
+        "API_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "value": "28877341"
+        },
+        "BOT_TOKEN": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": "6750287486:AAHSsxyLnqIV5-HbTfW1drJuai636FRKFIA"
+        },
+        "SESSION": {
+            "description": "Pyrogram string session.",
+            "value": "BQBrfJrwCNh2KH7G8h0EaG_huLfg-8iSlkQZ8y2sJCG3yfPEjOz0-foCltdS3l4lOqHCQr3FQMgTW4C7ZwyHx4Y711OrwiL8ng9ywrWuMBgMlgC0S3p9iCZkpmJTMU5fRQbcTeqypac8QLE5gu9D2Xy25uUUgj_xi922YgaQAlI9OJoCqyuvOvmo5ZS6KyBj5ZbBW7ezqYQZln7RwRW6eTjAASrEqiG6ht8dDPKcr3qCvUC7CeaIChX_4oQp7sXg957ZZuQG-jXFyv3nlu18dsoHmZ1wTWMApAjfDrdgG5_-s63TyBZ--1PK1axbMFuiGZyOiulJprxHP1GbMRTrnNwrAAAAAYw4nk0A"
+        },
+        "AUTH": {
+            "description": "User ID of Bot owner.",
+            "value": "6874153886"
+        },
+        "FORCESUB": {
+            "description": "Username name of public channel without using '@'.",
+            "value": "mrrajput_King"
+        }
+    },
+    "stack": "container"
+}    
