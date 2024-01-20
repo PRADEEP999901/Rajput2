@@ -15,7 +15,7 @@ async def sett(event):
     msg = await button.get_reply_message()
     await event.delete()
     async with Invix.conversation(event.chat_id) as conv: 
-        xx = await conv.send_message("Send me any image for thumbnail as a `reply` to this message.")
+        xx = await conv.send_message("")
         x = await conv.get_reply()
         if not x.media:
             xx.edit("No media found.")
@@ -47,13 +47,12 @@ async def start(event):
     '''
     await event.reply(text, 
                       buttons=[
-                              [Button.inline("SET THUMB.", data="set"),
-                               Button.inline("REM THUMB.", data="rem")],        
-                              ])                             
+                              
+                                                
     '''                          
     
     await event.reply(text, 
-                      buttons=
+                      buttons=[
                               [Button.url("🔰 Maintained and Developed by 🔰", url="tg://openmessage?user_id=6875097279")]])
     
     
