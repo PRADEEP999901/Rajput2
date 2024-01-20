@@ -42,7 +42,7 @@ async def remt(event):
   
 @Invix.on(events.NewMessage(incoming=True, pattern=f"{S}"))
 async def start(event):
-    text = "👋 Hi, I am 'Save Restricted Content ' bot.\n\n✅ Send me the Link of any message of Restricted Channels to Clone it here.\nFor private channel's messages, send the Invite Link first.\n\n👨**Owner:** @RAJPUT681830 \n**Support📞:** https://t.me/mrrajput_King"
+    text = "👋 Hi, I am 'Save Restricted Content ' bot.\n\n✅ Send me the Link of any message of Restricted Channels to Clone it here.\nFor private channel's messages, send the Invite Link first.\n\n👨**Owner:** @i_am_Axiko \n**Support📞:** https://t.me/mrrajput_King"
     #await start_srb(event, text)
     '''
     await event.reply(text, 
@@ -53,9 +53,7 @@ async def start(event):
     '''                          
     
     await event.reply(text, 
-                      buttons=[
-                              [Button.inline("SET THUMB.", data="set"),
-                               Button.inline("REM THUMB.", data="rem")],
-                              [Button.url("🔰 Maintained and Developed by 🔰", url="tg://openmessage?user_id=6874153886")]])
+                      buttons=
+                              [Button.url("🔰 Maintained and Developed by 🔰", url="tg://openmessage?user_id=6875097279")]])
     
     
